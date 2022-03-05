@@ -1,0 +1,35 @@
+
+{
+  "vsicons.dontShowNewVersionMessage": true,
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "css",
+    "javascript"
+  ],
+  
+  "editor.tabSize": 2,
+  "editor.fontSize": 21,
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "emmet.includeLanguages": {"html": "html"},
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "css": {
+    "editor.formatOnSave": true
+  },
+  "workbench.colorCustomizations": {
+    "statusBar.background" : "#1A1A1A",
+    "statusBar.noFolderBackground" : "#212121",
+    "statusBar.debuggingBackground": "#263238",
+
+  }
+}
+
+
