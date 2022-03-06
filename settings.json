@@ -1,35 +1,66 @@
-
 {
-  "vsicons.dontShowNewVersionMessage": true,
-  "auto-rename-tag.activationOnLanguage": [
-    "html",
-    "xml",
-    "css",
-    "javascript"
-  ],
-  
   "editor.tabSize": 2,
   "editor.fontSize": 21,
-  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-  "editor.fontLigatures": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "JetBrains Mono Light",
+  "editor.fontLigatures": false,
   "editor.wordWrap": "on",
+  "vsicons.dontShowNewVersionMessage": true,
+  "auto-rename-tag.activationOnLanguage": ["html", "xml", "css", "javascript"],
 
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
-  "emmet.includeLanguages": {"html": "html"},
+  "emmet.includeLanguages": { "html": "html", "css": "css", },
+  
   "[javascript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "css": {
-    "editor.formatOnSave": true
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorCustomizations": {
-    "statusBar.background" : "#1A1A1A",
-    "statusBar.noFolderBackground" : "#212121",
-    "statusBar.debuggingBackground": "#263238",
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-  }
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#323536",
+    "statusBar.noFolderBackground": "#444447",
+    "statusBar.debuggingBackground": "#853838"
+  },
+
+  "workbench.sideBar.location": "right",
+  "workbench.editor.enablePreview": false,
+  "window.titleBarStyle": "custom",
+  "workbench.editor.titleScrollbarSizing": "large",
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${rootName}${separator}${appName}",
+  "javascript.suggest.paths": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1500,
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "css",
+    "git-commit",
+    "go",
+    "graphql",
+    "handlebars",
+    "html",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "less",
+    "markdown",
+    "plaintext",
+    "python",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "yaml",
+    "yml"
+  ],
 }
 
 
