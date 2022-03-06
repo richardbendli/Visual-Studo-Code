@@ -61,6 +61,7 @@
     "yaml",
     "yml"
   ],
+  "workbench.startupEditor": "none",
 }
 
 
