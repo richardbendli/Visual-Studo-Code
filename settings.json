@@ -29,8 +29,6 @@
     "statusBar.noFolderBackground": "#444447",
     "statusBar.debuggingBackground": "#853838"
   },
-
-  "workbench.sideBar.location": "right",
   "workbench.editor.enablePreview": false,
   "window.titleBarStyle": "custom",
   "workbench.editor.titleScrollbarSizing": "large",
@@ -62,6 +60,7 @@
     "yml"
   ],
   "workbench.startupEditor": "none",
+  "workbench.editor.wrapTabs": true,
 }
 
 
