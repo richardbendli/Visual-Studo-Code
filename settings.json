@@ -59,8 +59,11 @@
     "yaml",
     "yml"
   ],
-  "workbench.startupEditor": "none",
-  "workbench.editor.wrapTabs": true,
+    "workbench.startupEditor": "none",
+    "workbench.editor.wrapTabs": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "telemetry.telemetryLevel": "off",
+    "workbench.editor.enablePreviewFromQuickOpen": true,
 }
 
 
