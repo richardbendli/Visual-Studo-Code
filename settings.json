@@ -5,8 +5,8 @@
   "editor.fontLigatures": false,
   "editor.wordWrap": "on",
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs":"active"
-  "vsicons.dontShowNewVersionMessage": true,
+  "editor.guides.bracketPairs":"active",
+  "vsicons.dontShowNewVersionMessage": false,
   "auto-rename-tag.activationOnLanguage": ["html", "xml", "css", "javascript"],
 
   "liveServer.settings.donotVerifyTags": true,
@@ -66,6 +66,7 @@
     "bracket-pair-colorizer-2.depreciation-notice": false,
     "telemetry.telemetryLevel": "off",
     "workbench.editor.enablePreviewFromQuickOpen": true,
+    "debug.javascript.autoAttachFilter": "always",
 }
 
 
